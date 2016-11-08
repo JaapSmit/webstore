@@ -2,7 +2,8 @@
 	background-color: blue;
 	color: yellow;
 	margin: auto;
-	width: 50%;
+	width: 50%
+	width: 200px;
 }
 
 #table1 {
@@ -15,8 +16,10 @@ a {
 }
 
 .image {
-	height: 100%;
-	width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: 50%;
+	width: 50%;
 	-webkit-animation: spin 5s linear infinite;
 }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -27,4 +30,12 @@ h1 {
 
 #mainbody {
 	background-color: blue;
+}
+
+.firework {
+	flex-grow: 1;
+}
+
+.row {
+	display: flex;
 }
